@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(57, 55, 55);
+}
+.head{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.js-result,.re-score,.js-moves,.js-scores{
+    font-size: 20px;
+    color: bisque;
+    margin-left: 30px;
+    background-color: transparent;
+}
+img{
+    height: 120px;
+background-color: transparent;
+width: 100px;
+border-radius: 8px;
+
+}
+button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+   
+}
+img:active{
+    height: 115px;
+    width: 95px;
+    margin-left: 2px;
+}
+button:active{
+    font-size: 16px;
+}
+.move-icon{
+    height: 50px;
+    width: 40px;
+    border-radius: 15px;
+}
